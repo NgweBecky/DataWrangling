@@ -37,11 +37,12 @@ All three pieces of data obtained from the gathering phase was loaded into indiv
 
 ## Step 3: Cleaning data
 Clean all of the issues you documented while assessing programmatically. This includes:
->• Dropping unnecessary columns from the tables
->• Removing rows that consisted of retweets
->• Removal of rows with duplicate information
->• Deleted rows that did not have any dog predictions at all
->• Combining all three data frames into a single data frame
+
+><ul><li>Dropping unnecessary columns from the tables.</li></ul>
+><ul><li>Removing rows that consisted of retweets.</li></ul>
+><ul><li>Removal of rows with duplicate information.</li></ul>
+><ul><li>Deleted rows that did not have any dog predictions at all.</li></ul>
+><ul><li>Combining all three data frames into a single data frame.</li></ul>
 ## Step 4: Storing data
 
 ## Step 5: Analyzing and Visualizing data
