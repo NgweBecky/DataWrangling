@@ -24,9 +24,24 @@ The following packages (libraries) need to be installed. You can install these p
 # Project Details: How did I Complete this Project?
 The tasks in this project are as follows:
 ## Step 1: Gathering data
-## Step 2: Assessing data
-## Step 3: Cleaning data
+In this section, three pieces of data was gathered.
 
+The WeRateDogs Twitter archive - This file (archive.csv) was downloaded manually and consists of basic tweet data for 2300+ tweets from WeRateDogs.
+
+The tweet image predictions - This file (image_predictions.tsv) is present in each tweet according to a neural network. It is hosted on Udacity's servers and was downloaded programmatically.
+
+Additional data from the Twitter API - Gather each tweet's retweet count and favorite ("like") count at the minimum. Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file.
+
+## Step 2: Assessing data
+All three pieces of data obtained from the gathering phase was loaded into individual pandas data frame and assessed visually and programmatically for quality and tidiness issues.
+
+## Step 3: Cleaning data
+Clean all of the issues you documented while assessing programmatically. This includes:
+>• Dropping unnecessary columns from the tables
+>• Removing rows that consisted of retweets
+>• Removal of rows with duplicate information
+>• Deleted rows that did not have any dog predictions at all
+>• Combining all three data frames into a single data frame
 ## Step 4: Storing data
 
 ## Step 5: Analyzing and Visualizing data
