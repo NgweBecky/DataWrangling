@@ -14,9 +14,9 @@ The following packages (libraries) need to be installed. You can install these p
 
 * pandas
 * NumPy
-* Matplotlib
-* seaborn
-* csv
+* requests
+* tweepy
+* json
 </li>
 <li>Need to be able to create written documents that contain images and you need to be able to export these documents as PDF files. This task can be done in a Jupyter Notebook, but you might prefer to use a word processor like Google Docs, which is free, or Microsoft Word.</li>
 </ul>
