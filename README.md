@@ -43,12 +43,21 @@ Clean all of the issues you documented while assessing programmatically. This in
 ><ul><li>Removal of rows with duplicate information.</li></ul>
 ><ul><li>Deleted rows that did not have any dog predictions at all.</li></ul>
 ><ul><li>Combining all three data frames into a single data frame.</li></ul>
+
 ## Step 4: Storing data
+Store the clean DataFrame(s) in a CSV file with the main one named twitter_archive_master.csv. If additional files exist because multiple tables are required for tidiness, name these files appropriately. Additionally, you may store the cleaned data in a SQLite database (which is to be submitted as well if you do).
 
 ## Step 5: Analyzing and Visualizing data
+Analyze and visualize your wrangled data in your wrangle_act.ipynb Jupyter Notebook. At least three (3) insights and one (1) visualization must be produced.
 
 ## Step 6: Reporting
 <ul>
 <li>Your data wrangling efforts</li>
+</ul>
+Create a 300-600 word written report called wrangle_report.pdf or wrangle_report.html that briefly describes your wrangling efforts. This is to be framed as an internal document.
+
+<ul>
 <li>Your data analysis and visualizations</li>
 </ul>
+Create a 250-word-minimum written report called act_report.pdf or act_report.html that communicates all the insights and displays the visualization(s) produced from your wrangled data. This is to be framed as an external document, like a blog post or magazine article, for example.
+
